@@ -9,6 +9,5 @@ $.Lvalid({//可传入对象进行初始化<br />
       name:'Lvalid-type',//对应在input中的验证插件的属性名<br />
       require_name:'data-require'//对应在input中的必填项的属性名<br />
 })<br />
-
 简单例子：<br />
-验证手机号：<input type="text" value="" Lvalid-type='phone_number'  data-require='required'><br />
+验证手机号："<input type="text" value="" Lvalid-type='phone_number'  data-require='required'>"<br />

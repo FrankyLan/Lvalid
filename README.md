@@ -3,6 +3,7 @@
 #初始化：<br />
   var L=$.Lvalid();//插件初始化返回function<br />
   $(".button").Lvalid(L);//当button被点击时触发验证<br />
+#插件的扩展<br />
 $.Lvalid({//可传入对象进行初始化<br />
       plugin:{'phone_number':'checkMobile','id_card_no':'checkCard','email':'checkEmail'},//传入验证模板名及对应验证函数，需要新增验证模板时按此格式添加<br />
       plugin_path:['plugin-list.js'],//插件列表路径，需添加时再次添加<br />
